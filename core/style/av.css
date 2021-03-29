@@ -5,3 +5,21 @@ body {
     font-family: 'Marcellus', serif;
     background-image: radial-gradient(#e6d5d2,#d9dee4,#99b9de,#e6e7e2);
 }
+
+.navLocal {
+    font-family: 'Marcellus', serif;
+    font-weight:bold;
+    color:  #c6cbd1;
+}
+
+.navLocal a:hover {
+    color:#44647d;
+
+}
+.navLinkLocal {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: #231b1a;
+}
