@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap');
+
+
+body {
+    font-family: 'Marcellus', serif;
+    background-image: radial-gradient(#e6d5d2,#d9dee4,#99b9de,#e6e7e2);
+}
