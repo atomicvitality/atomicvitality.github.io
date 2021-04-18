@@ -1,25 +1,25 @@
 /* paste this line in verbatim */
 window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
 
-/* customize formbutton below*/     
+/* customize formbutton below*/
 formbutton("create", {
   action: "https://formspree.io/f/xeqvoggo",
   title: "Let's connect!",
   fields: [
-    { 
-      type: "email", 
-      label: "E-mail:", 
+    {
+      type: "email",
+      label: "E-mail:",
       name: "email",
       required: true,
-      placeholder: "Valid e-mail address required"
+      placeholder: "enter e-mail"
     },
     {
       type: "textarea",
       label: "Message:",
       name: "message",
-      placeholder: "Let me know how I can help you.",
+      placeholder: "enter message",
     },
-    { type: "submit" }      
+    { type: "submit" }
   ],
   styles: {
     fontFamily: "Libre Baskerville",
@@ -31,13 +31,13 @@ formbutton("create", {
     title: {
       background: "black",
       color: "white",
- 
+
     },
     field: {
       display: "flex",
     },
     submitField: {
-      justifyContent: "flex-end",            
+      justifyContent: "flex-end",
     },
     label: {
       width: "40%",
