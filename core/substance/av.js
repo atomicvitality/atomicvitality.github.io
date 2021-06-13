@@ -1,17 +1,21 @@
 /* paste this line in verbatim */
-window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+window.formbutton =
+  window.formbutton ||
+  function () {
+    (formbutton.q = formbutton.q || []).push(arguments);
+  };
 
 /* customize formbutton below*/
 formbutton("create", {
   action: "https://formspree.io/f/xeqvoggo",
-  title: "Let's connect!",
+  title: "Contact me",
   fields: [
     {
       type: "email",
       label: "E-mail:",
       name: "email",
       required: true,
-      placeholder: "enter e-mail"
+      placeholder: "enter e-mail",
     },
     {
       type: "textarea",
@@ -19,10 +23,10 @@ formbutton("create", {
       name: "message",
       placeholder: "enter message",
     },
-    { type: "submit" }
+    { type: "submit" },
   ],
   styles: {
-    fontFamily: "Libre Baskerville",
+    fontFamily: "Viaoda Libre",
     modal: {
       border: "1px solid grey",
       boxShadow: "6px 6px 0 grey",
@@ -31,7 +35,6 @@ formbutton("create", {
     title: {
       background: "black",
       color: "white",
-
     },
     field: {
       display: "flex",
@@ -48,17 +51,17 @@ formbutton("create", {
     input: {
       borderRight: "1px solid rgba(0,0,0,0.1)",
       borderBottom: "1px solid rgba(0,0,0,0.1)",
-      borderRadius: "0px"
+      borderRadius: "0px",
     },
     button: {
       background: "white",
       fill: "black",
       border: "1px solid #c6cbd1",
-      boxShadow: "3px 3px 0px grey"
+      boxShadow: "3px 3px 0px grey",
     },
     closeButton: {
       textShadow: "0 0 0 #231b1a",
-    }
+    },
   },
-  initiallyVisible: false
+  initiallyVisible: false,
 });
