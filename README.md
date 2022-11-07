@@ -1,1 +1,1 @@
-# www.atomicvitality.com
+# atomicvitality.com
